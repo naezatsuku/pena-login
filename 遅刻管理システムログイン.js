@@ -25,7 +25,7 @@ let Users=[
         if(UserPass==pass&&UserName==name){
             console.log("Yes",UserPass,pass);
             //ログインできている時の処理
-            const baseUrl="file:///C:/Users/manato/Documents/%E5%B8%AD%E6%9B%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/%E3%83%9A%E3%83%8A%E3%83%AB%E3%83%86%E3%82%A3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.html";
+            const baseUrl="https://naezatsuku.github.io/pena/";
     let urlParameters={
         login:"Yes",
         UserName:UserName,
